@@ -1,0 +1,51 @@
+.menu-horizontal{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+span {
+    display: block;
+    padding: 5px 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu-horizontal > li > a {
+    display: block;
+    padding: 5px 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu-horizontal > li:hover{
+    background-color: red;
+}
+
+.menu-vertical{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: fit-content;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.menu-horizontal li:hover .menu-vertical{
+    display: block;
+}
+
+.menu-vertical li:hover{
+    background-color: black;
+}
+
+.menu-vertical li a{
+    display: block;
+    color: white;
+    padding: 10px 10px 10px 15px;
+    text-decoration: none;
+}
+
+.Titulo{
+    margin-top: 100px;
+    margin-left: 0;
+}
